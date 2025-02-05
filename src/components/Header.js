@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 
 function Header() {
     return(
@@ -6,7 +6,7 @@ function Header() {
       <div className="container">
         <div className="logo">
           <img src="./icons/Group 159.svg" alt="" />
-          <b>antols.</b>
+          <b>antools.</b>
         </div>
         <nav>
           <a>Home</a>
