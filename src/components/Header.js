@@ -6,7 +6,7 @@ function Header() {
       <div className="container">
         <div className="logo">
           <img src="./icons/Group 159.svg" alt="" />
-          <b>antools.</b>
+          <b>antols.</b>
         </div>
         <nav>
           <a>Home</a>
