@@ -1,0 +1,188 @@
+.two .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .two h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: var(--white-color);
+  }
+  .two .main-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 90px;
+    color: var(--light-color);
+  }
+  .two .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 100px;
+  }
+  .two .card {
+    width: 392px;
+    height: 294px;
+    border-radius: 15px;
+    width: 392px;
+    height: 294px;
+    background-color: var(--bck-color);
+    border: 0.5px solid var(--inn-color);
+    padding: 33px;
+    position: relative;
+    transition: all 0.3s ease;
+
+    overflow: hidden;
+  }
+  
+  .blur-circle {
+    position: absolute;
+    top: -30px;
+    right: -60px;
+    width: 100px;
+    height: 100px;
+    background: var(--primary-color);
+    filter: blur(50px);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .card:hover .blur-circle {
+    opacity: 1;
+  }
+  .two .like {
+    display: flex;
+    align-items: center;
+  }
+  .two .card i {
+    font-size: 24px;
+    color: var(--light-color);
+  }
+  .two .card i:hover {
+    color: red;
+    transform: scale(1.05);
+  }
+  .two .btn-card:hover {
+    background-color: var(--primary-color) !important;
+    cursor: pointer;
+  }
+  .two .card:hover {
+    backdrop-filter: blur(50px);
+    background: var(--inn-color);
+    border-radius: 15px;
+    width: 392px;
+    height: 294px;
+    transition: all 0.5s ease;
+    transform: translateY(-15px);
+  }
+  .two .card .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .two .card .logo .text b {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--white-color);
+  }
+  .two .card .logo .text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 165, 55, 0.55);
+  }
+  .two .card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: var(--light-color);
+  }
+  .btn-card {
+    border-radius: 8px;
+    width: 106px;
+    height: 42px;
+    border: none;
+    background-color: var(--inn-color);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--light-color);
+  }
+  .two .card .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .two .card .like {
+    display: flex;
+    gap: 10px;
+  }
+  .two .btn-load {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    width: 184px;
+    height: 64px;
+    background-color: var(--bck-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #ff6e30;
+    margin-top: 10px;
+    margin-bottom: 200px;
+  }
+  
+  .two .brands {
+    border-radius: 25px;
+    width: 1200px;
+    height: 253px;
+    background-color: var(--darker-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 55px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 200px;
+  }
+  .two .brands h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--white-color);
+  }
+  
+  .two .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+  .two .brands .blur {
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    width: 100px;
+    height: 100px;
+    background: var(--primary-color);
+    filter: blur(50px);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 1s ease;
+  }

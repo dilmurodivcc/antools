@@ -1,0 +1,70 @@
+.one {
+    max-width: 100%;
+    overflow: hidden;
+    scrollbar-width: none;
+  }
+  .one .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-top: 60px;
+    margin-bottom: 200px;
+  }
+  .one h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: var(--white-color);
+  }
+  .one p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: var(--light-color);
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .one form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 497px;
+    height: 64px;
+    margin-bottom: 110px;
+  }
+  .one form input {
+    border-radius: 15px;
+    width: 497px;
+    height: 64px;
+    background: var(--inn-color);
+    border: none;
+    outline: none;
+  }
+  .one form input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--light-color);
+    padding-left: 55px;
+  }
+  .one form button {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    bottom: 8px;
+  }
+  .one form img {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+  }
+  .one .icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+  
